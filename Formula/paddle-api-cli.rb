@@ -7,6 +7,12 @@ class PaddleApiCli < Formula
   sha256 "768187bed96376676e8fc03d11bd7260804737f6e73f32ced2cf3794dc13e4ce"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/omshejul/homebrew-tap/releases/download/paddle-api-cli-0.3.6"
+    sha256 cellar: :any, arm64_tahoe:  "19b66752017d03e086060a74a17f105bbbd508f73de1a26830b9ec6c7864b664"
+    sha256 cellar: :any, x86_64_linux: "e1158b4d13f74f6d584e05c8bdcfa7434dfba1de4ff7352a0d722f8aa34ec1af"
+  end
+
   depends_on "libyaml"
   depends_on "python@3.13"
 
