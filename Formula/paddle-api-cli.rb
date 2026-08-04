@@ -3,8 +3,8 @@ class PaddleApiCli < Formula
 
   desc "Secure, spec-driven CLI for Paddle Billing"
   homepage "https://github.com/omshejul/paddle-cli"
-  url "https://files.pythonhosted.org/packages/27/91/532966074578cf2d2c0e650370f00308d5349d58415c66a5a5b2f6d94b4c/paddle_api_cli-0.3.4.tar.gz"
-  sha256 "b8424ac82568f7c9e86e6063d16741bfafefb30b24ad75b3d9896523cbb9c375"
+  url "https://files.pythonhosted.org/packages/cf/d4/9133ab37d21bdbb94415cf9dd2f4ca532da4995393ad7b0b06731bb669ed/paddle_api_cli-0.3.5.tar.gz"
+  sha256 "47e70fe77c84123ce70b1cf0951685ec8af769429340013a64fc1e88510344f6"
   license "MIT"
 
   depends_on "libyaml"
