@@ -3,15 +3,9 @@ class PaddleApiCli < Formula
 
   desc "Secure, spec-driven CLI for Paddle Billing"
   homepage "https://github.com/omshejul/paddle-cli"
-  url "https://files.pythonhosted.org/packages/cf/d4/9133ab37d21bdbb94415cf9dd2f4ca532da4995393ad7b0b06731bb669ed/paddle_api_cli-0.3.5.tar.gz"
-  sha256 "47e70fe77c84123ce70b1cf0951685ec8af769429340013a64fc1e88510344f6"
+  url "https://files.pythonhosted.org/packages/07/9b/193d02137445428844d58db4449c010a191a3d224a1cc31e890bb1c7b486/paddle_api_cli-0.3.6.tar.gz"
+  sha256 "768187bed96376676e8fc03d11bd7260804737f6e73f32ced2cf3794dc13e4ce"
   license "MIT"
-
-  bottle do
-    root_url "https://github.com/omshejul/homebrew-tap/releases/download/paddle-api-cli-0.3.5"
-    sha256 cellar: :any, arm64_tahoe:  "5eb165afb77d0af46657441e12e918d7ef310241d68870d9973fe8f850e59e8b"
-    sha256 cellar: :any, x86_64_linux: "90b9fc5a9cd11b2fe4a53080b8158fb15952293a3072621059a57c359584cde7"
-  end
 
   depends_on "libyaml"
   depends_on "python@3.13"
